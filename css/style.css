@@ -12,15 +12,13 @@ body{
 header{
     background-color: rgb(42, 42, 42);
     font-size: 50px;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 nav.menu_nav{
     text-align: center;
     width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 nav.menu_nav ul li{
@@ -29,12 +27,13 @@ nav.menu_nav ul li{
 
 nav.menu_nav ul li.btn{
     list-style-type: none;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 nav.menu_nav ul li.btn a{
     color: rgb(105, 105, 105);
     text-decoration: none;
-    padding: 150px;
 }
 
 nav.menu_nav ul li.btn:hover a img{
@@ -47,7 +46,7 @@ h1.Titre{
     font-size: 75px;
     letter-spacing: 2px;
     font-family: 'Ropa Sans', sans-serif;
-    padding-top: 40px;bo
+    padding-top: 40px;
 }
 
 h1.Titre2 {
