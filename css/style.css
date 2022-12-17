@@ -16,8 +16,8 @@ header{
 nav.menu_nav{
     text-align: center;
     width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     position: fixed;
     background-color: rgba(27, 27, 27, 0.754);
 }
@@ -32,14 +32,11 @@ nav.menu_nav ul li.btn{
     padding-right: 100px;
 }
 
-nav.menu_nav ul li.btn a{
-    color: rgb(105, 105, 105);
-    text-decoration: none;
-}
 
-nav.menu_nav ul li.btn:hover a img{
+
+.btn:hover a img{
     transition: 0.3s all;
-    transform: scale(1.50);
+    transform: scale(1.40);
 }
 
 h1.Titre{
